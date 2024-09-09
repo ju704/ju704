@@ -1,0 +1,10 @@
+git clone <URL_del_repositorio>
+cd juan_roa_cabrera
+git checkout -b JRC_PROC_INF
+mi_aplicativo.py  
+git add mi_aplicativo.py
+git push origin JRC_PROC_INF
+git checkout main
+git merge JRC_PROC_INF
+git tag CODE_200
+git push origin CODE_200
